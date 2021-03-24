@@ -16,6 +16,9 @@ poetry add requests
 
 # If you want to add a new python package only for development (dev dependency)
 poetry add mypy -D
+
+# To drop into the shell for running the package locally
+poetry shell
 ```
 
 ## Simple tests are already set up, with an example conftest.py
